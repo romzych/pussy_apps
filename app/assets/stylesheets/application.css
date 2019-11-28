@@ -14,13 +14,12 @@
  *= require_self
  */
 body {
-	  background-image: url(asset-path("cat.jpg"));
+	  background-image: url("cat.jpg");
 
 }
 
 h2 {
 	margin-left: 200px;
-	margin-top: ;
 
 }
 
