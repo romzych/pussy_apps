@@ -1,0 +1,2 @@
+class ItemOrderJoin < ApplicationRecord
+end

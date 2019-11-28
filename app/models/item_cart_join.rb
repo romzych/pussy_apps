@@ -1,0 +1,2 @@
+class ItemCartJoin < ApplicationRecord
+end
