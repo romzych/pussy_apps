@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+lien app heroku en production : http://pussypics.herokuapp.com/
+
