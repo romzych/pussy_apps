@@ -15,7 +15,7 @@
  */
 body {
 	  background-image: url("cat.jpg");
-
+    overflow-x: hidden;
 }
 
 h2 {

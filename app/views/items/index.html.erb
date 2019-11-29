@@ -18,6 +18,9 @@
                 <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
+                  <p class="font-weight-bold">
+                    <%= item.race %>
+                  </p>
                   <p class="card-text">
                     <%= item.description %></p>
                   <div class="buy d-flex justify-content-between align-items-center">
@@ -34,12 +37,15 @@
       <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
         <div class="container">
           <div class="row">
-            <% @big_items.each do |item| %>
+            <% @persan_items.each do |item| %>
             <div class="col-md-4 col-sm-12">
               <div class="card">
                 <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
+                  <p class="font-weight-bold">
+                    <%= item.race %>
+                  </p>
                   <p class="card-text">
                     <%= item.description %></p>
                   <div class="buy d-flex justify-content-between align-items-center">
@@ -62,6 +68,9 @@
                 <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
+                  <p class="font-weight-bold">
+                    <%= item.race %>
+                  </p>
                   <p class="card-text">
                     <%= item.description %></p>
                   <div class="buy d-flex justify-content-between align-items-center">
@@ -78,12 +87,15 @@
       <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
         <div class="container">
           <div class="row">
-            <% @persan_items.each do |item| %>
+            <% @big_items.each do |item| %>
             <div class="col-md-4 col-sm-12">
               <div class="card">
                 <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
+                  <p class="font-weight-bold">
+                    <%= item.race %>
+                  </p>
                   <p class="card-text">
                     <%= item.description %></p>
                   <div class="buy d-flex justify-content-between align-items-center">
