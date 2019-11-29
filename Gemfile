@@ -66,3 +66,4 @@ gem 'devise'
 gem 'dotenv-rails'
 gem 'faker'
 gem 'stripe'
+gem "administrate"
