@@ -15,7 +15,7 @@
             <% @all_items.each do |item| %>
             <div class="col-md-4 col-sm-12">
               <div class="card">
-                <img src="../../assets/images/<%= item.image_url %>.jpg" alt="">
+                <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
                   <p class="font-weight-bold">
@@ -40,7 +40,7 @@
             <% @persan_items.each do |item| %>
             <div class="col-md-4 col-sm-12">
               <div class="card">
-                <img src="../../assets/images/<%= item.image_url %>.jpg" alt="">
+                <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
                   <p class="font-weight-bold">
@@ -65,7 +65,7 @@
             <% @siamois_items.each do |item| %>
             <div class="col-md-4 col-sm-12">
               <div class="card">
-                <img src="../../assets/images/<%= item.image_url %>.jpg" alt="">
+                <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
                   <p class="font-weight-bold">
@@ -90,7 +90,7 @@
             <% @big_items.each do |item| %>
             <div class="col-md-4 col-sm-12">
               <div class="card">
-                <img src="../../assets/images/<%= item.image_url %>.jpg" alt="">
+                <%= image_tag(item.image_url, :class => "card-img") %>
                 <div class="card-body">
                   <h4 class="card-title"><%= item.title %></h4>
                   <p class="font-weight-bold">
